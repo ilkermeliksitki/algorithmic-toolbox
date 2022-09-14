@@ -23,8 +23,8 @@ int main(void){
     scanf("%lld %d", &n, &m);
     pisano_cycle(m, &period, p);
 
-    int temp = *(p + (n % period));
-    printf("%d\n", temp);
+    int last_digit = *(p + (n % period));
+    printf("%d\n", last_digit);
 
     free(p);
     return 0;
