@@ -15,9 +15,10 @@ void summand_coefficients(unsigned long n, unsigned long int * k, unsigned long 
      * the previous one and the last one is merged.
      * n = 1, 2, 3, ... , k, m. (general assumption.)
      *
-     * For example,
-     * n = 125 = 1, 2, 3,..., 14, 15, 5 (not accepted.) 
-     *         = 1, 2, 3,..., 14, 20    (accepted.)
+     * let us consider n = 125 case,
+     * gauss_formula_variable(125) -> k = 15.
+     * 125 = 1, 2, 3, 4, 5, 6,..., 14, 15, 5 (not accepted.) 
+     *     = 1, 2, 3, 4, 5, 6,..., 14, 20    (accepted.)
      */
     *k = gauss_formula_variable(n);
     if ((n - *k*(*k+1)/2) <= *k ){
