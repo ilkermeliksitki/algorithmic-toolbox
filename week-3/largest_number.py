@@ -1,8 +1,3 @@
-def get_first_digit(n: int) -> int:
-    while n >= 10:
-        n = n // 10
-    return n
-
 def is_better(number: int, max_number: int) -> bool:
     """
     function make a choice about largest possible concatenation between 
