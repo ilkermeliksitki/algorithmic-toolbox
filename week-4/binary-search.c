@@ -18,7 +18,7 @@ int binary_search(long long int A[], int q, int size){
 }
 
 int main(void){
-    /* taking inputs */
+    /* taking array elements as inputs */
     int n;
     scanf("%d", &n);
     long long int A[n];
@@ -26,7 +26,7 @@ int main(void){
     for (i = 0; i < n; ++i)
         scanf("%lld", &A[i]);
 
-    /* printing output */
+    /* taking the keys will be searched and printing output */
     int m;
     scanf("%d", &m);
     long long int q;
