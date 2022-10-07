@@ -11,9 +11,9 @@ int majority_element(long int A[], long int n){
      *         and 0 otherwise.
      *
      * Input Format: The first line contains an integer `n` the next one contains
-     * a sequence of `n` non-negative integers. a_0, a_1, ..., a_(n-1).
+     *     a sequence of `n` non-negative integers. a_0, a_1, ..., a_(n-1).
      * Output Format: Output 1 if the sequence contains an element that appears
-     * more than `n/2` times and 0 otherwise
+     *     more than `n/2` times and 0 otherwise
      *
      * Constraints: 1 <= n <= 10^5; 0 <= a_i <= 10^9 for all 0 <= i < n
      *
