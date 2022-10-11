@@ -1,2 +1,9 @@
 */a.out
 
+# problem solutions from introduction to algorithms - clrs is ignored.
+# Ex:
+#   quicksort-clrs-7.1-2.c
+*/*clrs-[0-9]*.[0-9]*-[0-9].c
+*/*clrs-[0-9]*.[0-9]*-[0-9].py
+*/*clrs-[0-9]*.[0-9]*-[0-9].cpp
+
