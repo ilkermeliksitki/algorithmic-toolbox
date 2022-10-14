@@ -50,9 +50,9 @@ void merge_inversion(long int A[], long int p, long int q, long int r){
 }
 
 void merge_sort_inversion(long int A[], long int p, long int r){
-    if (p >= r)                 // zero or one element.
+    if (p >= r)                           // zero or one element.
         return;
-    long int q = (p + r) / 2;   // midpoint
+    long int q = (p + r) / 2;             // midpoint
     merge_sort_inversion(A, p, q);        // recursively sort A[p:q]
     merge_sort_inversion(A, q + 1, r);    // recursively sort A[q + 1:r]
     
