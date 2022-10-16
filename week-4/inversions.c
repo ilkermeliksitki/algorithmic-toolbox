@@ -4,6 +4,7 @@ long int number_of_inversions = 0;
 
 void merge_inversion(long int A[], long int p, long int q, long int r){
     /* The algorithm assumes that the sub arrays(A[p:q] and A[q + 1:r]) are aldready sorted. */
+    extern long int number_of_inversions;
 
     long int n_l = q - p + 1;   // length of A[p:q]
     long int n_r = r - q;       // length of A[q + 1:r]
