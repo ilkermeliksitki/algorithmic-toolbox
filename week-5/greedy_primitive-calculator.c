@@ -10,7 +10,7 @@ int greedy_calculator(int n)
      * multiply by 3.
      *
      * Unfortunately, this algorithm fails in the following cases.
-     *     20 = x3 x3 x3 +1 +1 <= 5 operations.
+     *     20 = x3 x3 x2 +1 +1 <= 5 operations.
      * But the optimal solution is:
      *     20 = x3 x3 +1 x2    <= 4 operations.
      *
