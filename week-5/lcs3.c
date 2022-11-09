@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 void fill_array(long int arr[], int n)
 {
