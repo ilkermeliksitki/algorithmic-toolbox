@@ -2,6 +2,13 @@
 
 int knapsack(int W, int weights[], int price[], int n)
 {
+    /*
+     * let value(w) be the maximum value of knapsack of weight w.
+     *
+     * value(w) = max{value(w - w_i) + v_i} where for all i w_i <= w.
+     * and v_i is the value of the item of weight w_i.
+     *
+     */
     int value[W+1], val;
     value[0] = 0;
     for (int w = 1; w <= W; w++) {
