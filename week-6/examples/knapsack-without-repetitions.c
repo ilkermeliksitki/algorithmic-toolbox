@@ -42,10 +42,8 @@ int knapsack(int W, int weights[], int prices[], int n)
         if (value[i - 1][w - weights[i - 1]] + prices[i - 1] > value[i - 1][w]) {
             printf("%2d", weights[i - 1]);
             w = w - weights[i - 1];
-            i--;
-        } else {
-            i--;
         }
+        i--;
     }
     return value[n][W];
 }
